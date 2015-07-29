@@ -44,31 +44,30 @@ function getWinner(playerMove,computerMove) {
     if (playerMove == "paper" && computerMove == "rock") {
         winner = "player"
         console.log("Player Wins!");}
+
     else if (playerMove == "paper" && computerMove == "scissors") {
         winner = "computer"
         console.log("Computer Wins");}
-    else if (playerMove == "paper" && computerMove == "paper") {
-        winner = "tie"
-        console.log("It's a tie!");}
+
     else if (playerMove == "rock" && computerMove == "paper"){
         winner = "player"
         console.log("Player Wins!");}
+
     else if (playerMove == "rock" && computerMove == "scissors"){
         winner = "computer"
         console.log("Computer Wins");}
-    else if (playerMove == "rock" && computerMove == "rock"){
-        winner = "tie"
-        console.log("It's a tie!");}
+
     else if (playerMove == "scissors" && computerMove == "paper"){
         winner = "player"
         console.log("Player Wins!");}
+
     else if (playerMove == "scissors" && computerMove == "rock"){
         winner = "computer"
         console.log("Computer Wins");}
-    else if (playerMove == "scissors" && computerMove == "scissors"){
+
+    else {
         winner = "tie"
         console.log("It's a tie!");}
-    else getInput()
 
     return winner;
 }
