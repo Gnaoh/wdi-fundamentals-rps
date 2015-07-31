@@ -90,15 +90,14 @@ while (playerWins > 5 && computerWins > 5) {
     }
 
     console.log ("Player chose " + playerMove " and Computer chose " + computerMove + ".");
-    
-    console.log ("Scoreboard: Player " + playersWins + ", Computer " + computerWins + ".");
+
+    console.log ("Scoreboard: Player " + playersWins + ", Computer " + computerWins);
 }
 
     if (playerWins === 5){
-        console.log ("Player Wins! All is safe on planet Earth");
+        console.log ("Player wins! All is safe on planet Earth");
 }
-    else if (computerWins === 5) {
-        console.log ("Uh oh, Computer WINS, send in Arnold.");
+    else (computerWins === 5) {
+        console.log ("Uh oh, Computer wins, time to move. Earth 452b, here we come.");
 }
     return [playerWins, computerWins];
-
