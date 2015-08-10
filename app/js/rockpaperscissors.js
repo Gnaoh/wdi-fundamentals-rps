@@ -95,7 +95,7 @@ while (playerWins < 5 && computerWins < 5) {
 
     if (playerWins === 5){
         console.log ("Player wins! All is safe on planet Earth");
-    }else (computerWins === 5); {
+    }else ; {
         console.log ("Uh oh, Computer wins, time to move. Earth 452b, here we come.")
     }
 }
